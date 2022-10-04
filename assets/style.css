@@ -58,3 +58,35 @@
   height: 100%;
   object-fit: contain;
 }
+
+@media screen and (max-width: 1020px) {
+  .not-found-inner {
+    flex-direction: column-reverse;
+  }
+
+  .not-found-right {
+    max-height: 500px;
+    max-width: 500px;
+  }
+
+  .not-found-right img {
+    max-height: 500px;
+    max-width: 500px;
+  }
+
+  .not-found-left {
+    justify-content: center;
+  }
+  .not-found-left * {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .not-found-left h1 {
+    font-size: 32px;
+  }
+  .not-found-left h3 {
+    font-size: 16px;
+  }
+}
